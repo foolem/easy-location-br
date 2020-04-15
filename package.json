@@ -4,10 +4,14 @@
   "description": "Easy location for Brasil, find states and cities with ease.",
   "author": "foolem",
   "license": "MIT",
-  "repository": "foolem/easy-location-br",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
+  "homepage": "https://github.com/foolem/easy-location-br",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/foolem/easy-location-br.git"
+  },
   "engines": {
     "node": ">=10"
   },

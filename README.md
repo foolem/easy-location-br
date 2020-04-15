@@ -1,28 +1,27 @@
 # easy-location-br
 
-> Easy location for Brasil, find states and cities with ease.
+> Easy location for Brasil, find states and cities with ease. Encontre estados e cidades brasileiros com facilidade.
 
 [![NPM](https://img.shields.io/npm/v/easy-location-br.svg)](https://www.npmjs.com/package/easy-location-br) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save easy-location-br
+yarn add easy-location-br
+```
+
+or
+
+```bash
+npm i easy-location-br
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import { getStateCities } from "easy-location-br";
 
-import MyComponent from 'easy-location-br'
-import 'easy-location-br/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+getStateCities("PR");
 ```
 
 ## License
