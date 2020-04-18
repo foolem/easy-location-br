@@ -1,12 +1,20 @@
 {
   "name": "easy-location-br",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Easy location for Brasil, find states and cities with ease. Encontre cidades e estados com facilidade.",
   "author": "foolem",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
+  "keywords": [
+    "estados",
+    "cidades",
+    "brasil",
+    "select",
+    "combobox",
+    "IBGE"
+  ],
   "homepage": "https://github.com/foolem/easy-location-br",
   "repository": {
     "type": "git",

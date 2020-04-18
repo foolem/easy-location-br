@@ -12,11 +12,15 @@ Criar selects com estados e cidades brasileiras não precisa mais ser tão compl
 yarn add easy-location-br
 ```
 
-or
+ou
 
 ```bash
 npm i easy-location-br
 ```
+
+## CDN
+
+<a href="https://easy-location-br.now.sh/index.js" target="_blank">https://easy-location-br.now.sh/index.js</a>
 
 ## Import ES6
 
@@ -53,9 +57,5 @@ getStateCities("PR");
   ...]
  */
 ```
-
-## CDN
-
-<a href="https://easy-location-br.now.sh/index.js" target="_blank">https://easy-location-br.now.sh/index.js</a>
 
 Se divirta! :rocket:
