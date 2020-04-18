@@ -18,7 +18,7 @@ or
 npm i easy-location-br
 ```
 
-## Como utilizar
+## Import ES6
 
 ```jsx
 import { getAllStates, getAllCities, getStateCities } from "easy-location-br";
@@ -53,5 +53,9 @@ getStateCities("PR");
   ...]
  */
 ```
+
+## CDN
+
+<a href="https://easy-location-br.now.sh/index.js" target="_blank">https://easy-location-br.now.sh/index.js</a>
 
 Se divirta! :rocket:
