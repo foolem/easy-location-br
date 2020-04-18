@@ -1,7 +1,7 @@
 {
   "name": "easy-location-br",
-  "version": "1.0.2",
-  "description": "Easy location for Brasil, find states and cities with ease.",
+  "version": "1.0.5",
+  "description": "Easy location for Brasil, find states and cities with ease. Encontre cidades e estados com facilidade.",
   "author": "foolem",
   "license": "MIT",
   "main": "dist/index.js",
@@ -16,9 +16,9 @@
     "node": ">=10"
   },
   "scripts": {
-    "build": "microbundle",
+    "build": "microbundle -f cjs,es",
     "start": "microbundle watch",
-    "prepublish": "microbundle",
+    "prepublish": "microbundle -f cjs,es",
     "test": "jest"
   },
   "devDependencies": {
